@@ -29,7 +29,7 @@ Now the task is to deploy the application, along with the necessary supporting s
   * NAT Gateways
 
 ```
-$ scripts/create.sh webapp-network-stack network.yml network-params.json
+$ ./create.sh webapp-network-stack network.yml network-params.json
 ```
 
 2. To create servers resources using cloudformation template which pulls source code from S3 bucket automatically while starting, run the below command. After exceuting it these are the resources created:
@@ -41,7 +41,7 @@ $ scripts/create.sh webapp-network-stack network.yml network-params.json
   * Target Group
 
 ```
-$ scripts/create.sh webapp-server-stack server.yml server-params.json
+$ ./create.sh webapp-server-stack server.yml server-params.json
 ```
 
 Once the above steps are complete, you can find the URL of application in the outputs section of udagram-servers-stack CloudFormarion stack.
