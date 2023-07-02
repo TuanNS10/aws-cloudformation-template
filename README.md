@@ -1,3 +1,5 @@
+## Deploy a high-availability web app using CloudFormation
+
 ### Project Overview
 
 Suppose company is creating an Instagram clone like application. Developers pushed the latest version of their code in a zip file located in a public S3 Bucket.
